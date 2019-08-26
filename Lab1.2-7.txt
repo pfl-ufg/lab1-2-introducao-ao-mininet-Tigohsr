@@ -1,0 +1,26 @@
+P/TCP
+
+*** Iperf: testing TCP bandwidth between h1 and h2                               
+*** Results: ['89.1 Mbits/sec', '104 Mbits/sec'] 
+
+P/UDP
+
+*** Iperf: testing UDP bandwidth between h1 and h2           
+*** Results: ['10M', '10.0 Mbits/sec', '10.0 Mbits/sec'] 
+
+PING
+
+PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=21.2 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=21.2 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=21.9 ms
+64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=21.9 ms
+64 bytes from 10.0.0.2: icmp_seq=5 ttl=64 time=20.7 ms                                                  
+64 bytes from 10.0.0.2: icmp_seq=6 ttl=64 time=21.0 ms
+64 bytes from 10.0.0.2: icmp_seq=7 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.2: icmp_seq=8 ttl=64 time=20.8 ms       
+64 bytes from 10.0.0.2: icmp_seq=9 ttl=64 time=20.8 ms                       
+64 bytes from 10.0.0.2: icmp_seq=10 ttl=64 time=21.2 ms 
+--- 10.0.0.2 ping statistics ---                         
+14 packets transmitted, 14 received, 0% packet loss, time 13019ms  
+rtt min/avg/max/mdev = 20.265/21.240/23.498/0.798 ms
